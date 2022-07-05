@@ -1,0 +1,6 @@
+print('\033[4;31;44mOlá Mundo!\033[m')
+a = int(input('Digite um número: '))
+b = int(input('Digite mais um número: '))
+print(f'A soma entre \033[32m{a}\033[m e \033[31m{b}\033[m é igual a \033[35m{a + b}\033[m!')
+c = int(input('Agora digite mais um número: '))
+d = int(input('Um último número: '))
