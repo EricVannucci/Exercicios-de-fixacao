@@ -1,5 +1,5 @@
 # tela de boas-vindas
-print('****\033[96mSimulador de Empréstimos\033[m****')
+print('**** \033[96mSimulador de Empréstimos\033[m ****')
 
 # inserindo dados
 casa = float(input('Digite o valor da casa desejada:R$ '))
