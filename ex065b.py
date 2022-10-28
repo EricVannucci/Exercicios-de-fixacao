@@ -8,10 +8,10 @@ while continuar == 's':
     cont += 1
     media += num
     numeros += [num]
-    continuar = str(input('Deseja continuar? [S/N]: ')).strip().lower()
+    continuar = str(input('Deseja continuar? [S/N]: ')).strip().lower()[0]
     while continuar not in 'sn':
         print('Opção incorreta, digite S para sim ou N para não.')
-        continuar = str(input('Deseja continuar? [S/N]: ')).strip().lower()
+        continuar = str(input('Deseja continuar? [S/N]: ')).strip().lower()[0]
 print()
 print(f'O maior número digitado é {max(numeros)};')
 print(f'O menor número digitado é {min(numeros)};')
