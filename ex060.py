@@ -23,4 +23,4 @@ print('.\n', end='')
 sleep(1)
 for c in range(num, 1, -1):
     print(c, end=' x ')
-print(f'1 = {factorial(num)}')
+print(f'1 = {factorial(num):,}'.replace(',', '.'))
